@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+#mensaje {
+    width: 20%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: black;
+    margin: 0.5rem;
+}
+
+span {
+    display: block;
+    margin: 0rem 1rem;
+    text-align: justify;
+}
