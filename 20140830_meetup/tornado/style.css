@@ -3,12 +3,26 @@ body {
 }
 
 form {
-    margin: 2rem 0rem;
-    text-align: center;
+    margin: 2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+form > * {
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+
+form > :last-child {
+    margin-right: 0rem;
+}
+
+input[type=submit] {
+    flex-shrink: 0;
 }
 
 #mensaje {
-    width: 20%;
+    flex-grow: 1;
+    flex-basis: 2rem;
 }
 
 hr {
